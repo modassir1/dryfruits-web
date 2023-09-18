@@ -1,9 +1,9 @@
 import React from 'react'
 import BlogData from './BlogData'
 const BlogProduct = [
-    { id: "0", name: "Healthy Food Healthy Life", date: "Aug 25, 2023", comment: "1", img: "/assets/post__1.webp" },
-    { id: "1", name: "Healthy Food Healthy Life", date: "Aug 25, 2023", comment: "6", img: "/assets/post__2.webp" },
-    { id: "2", name: "Healthy Food Healthy Life", date: "Aug 25, 2023", comment: "5", img: "/assets/post__3.webp" }
+    { id: "0", name: "Healthy Food Healthy Life", date: "Aug 25, 2023", comment: "1", img: "/post__1.webp" },
+    { id: "1", name: "Healthy Food Healthy Life", date: "Aug 25, 2023", comment: "6", img: "/post__2.webp" },
+    { id: "2", name: "Healthy Food Healthy Life", date: "Aug 25, 2023", comment: "5", img: "/post__3.webp" }
 ]
 const BlogSection = () => {
     return (

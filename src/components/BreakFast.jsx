@@ -1,10 +1,10 @@
 import React from 'react'
 import ProductCart from './ProductCart'
 const BreakfastData = [
-    { id: "0", img: "/assets/product__5.webp", name: "Fresh Tomato", price: "$400" },
-    { id: '1', img: "assets/product__2.webp", name: "Crunchy Crispy", price: "$300" },
-    { id: '2', img: "assets/product__3.webp", name: "Jewel Cardoriy", price: "$150" },
-    { id: "3", img: "assets/product__4 (1).webp", name: "Almond Orgenic", price: "$100" }
+    { id: "0", img: "/product__5.webp", name: "Fresh Tomato", price: "$400" },
+    { id: '1', img: "/product__2.webp", name: "Crunchy Crispy", price: "$300" },
+    { id: '2', img: "/product__3.webp", name: "Jewel Cardoriy", price: "$150" },
+    { id: "3", img: "/product__4 (1).webp", name: "Almond Orgenic", price: "$100" }
 ]
 
 const BreakFast = () => {
@@ -25,7 +25,7 @@ const BreakFast = () => {
 
             <div className='pt-8 gap-2 grid sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5'>
                 <div>
-                    <img className='w-full h-full object-cover' src='/assets/feature__2.webp' alt="" />
+                    <img className='w-full h-full object-cover' src='/feature__2.webp' alt="" />
                 </div>
 
                 {
